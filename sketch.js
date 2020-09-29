@@ -64,13 +64,11 @@ function draw() {
   background(255);
   Engine.update(engine);
 
-  
+  paper.display();
 
   ground.display();
 
   dust.display();
-
-  paper.display();
 
   drawSprites();
  
